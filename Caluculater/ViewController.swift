@@ -104,9 +104,11 @@ class ViewController: UIViewController {
         number3 = 0
         ope = 0
         label.text = String(number1)
+        label.textColor = UIColor.black
     }
     
     @IBAction func equal() {
+        
         if ope == 1 {
             //プラスの時
             number3 = number2 + number1
@@ -122,8 +124,15 @@ class ViewController: UIViewController {
         }
         
         label.text = String(number3)
+        
+        if number3 >= 10 {
+            label.textColor = UIColor.red
+        } else if number3 < -10 {
+            label.textColor = UIColor.blue
+        } else {
+            label.textColor = UIColor.black
+        }
     }
-
 
 }
 
