@@ -120,6 +120,9 @@
                                 <color key="tintColor" red="0.5411764979" green="0.46666663889999999" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="C"/>
+                                <connections>
+                                    <action selector="reset" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Qa-Bb-tTI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBu-gO-XLz">
                                 <rect key="frame" x="119" y="609" width="72" height="58"/>

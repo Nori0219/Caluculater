@@ -98,6 +98,14 @@ class ViewController: UIViewController {
         ope = 4
     }
     
+    @IBAction func reset() {
+        number1 = 0
+        number2 = 0
+        number3 = 0
+        ope = 0
+        label.text = String(number1)
+    }
+    
     @IBAction func equal() {
         if ope == 1 {
             //プラスの時

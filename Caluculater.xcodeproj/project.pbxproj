@@ -13,6 +13,7 @@
 		F007879B2A00F8E80072D909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00787992A00F8E80072D909 /* Main.storyboard */; };
 		F007879D2A00F8EA0072D909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F007879C2A00F8EA0072D909 /* Assets.xcassets */; };
 		F00787A02A00F8EA0072D909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F007879E2A00F8EA0072D909 /* LaunchScreen.storyboard */; };
+		F08E59EB2A010BAC00312E27 /* 電卓アプリ.png in Resources */ = {isa = PBXBuildFile; fileRef = F08E59EA2A010BAC00312E27 /* 電卓アプリ.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F007879C2A00F8EA0072D909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F007879F2A00F8EA0072D909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F00787A12A00F8EA0072D909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08E59EA2A010BAC00312E27 /* 電卓アプリ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "電卓アプリ.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F00787952A00F8E80072D909 /* SceneDelegate.swift */,
 				F00787972A00F8E80072D909 /* ViewController.swift */,
 				F00787992A00F8E80072D909 /* Main.storyboard */,
+				F08E59EA2A010BAC00312E27 /* 電卓アプリ.png */,
 				F007879C2A00F8EA0072D909 /* Assets.xcassets */,
 				F007879E2A00F8EA0072D909 /* LaunchScreen.storyboard */,
 				F00787A12A00F8EA0072D909 /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				F00787A02A00F8EA0072D909 /* LaunchScreen.storyboard in Resources */,
 				F007879D2A00F8EA0072D909 /* Assets.xcassets in Resources */,
+				F08E59EB2A010BAC00312E27 /* 電卓アプリ.png in Resources */,
 				F007879B2A00F8E80072D909 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
